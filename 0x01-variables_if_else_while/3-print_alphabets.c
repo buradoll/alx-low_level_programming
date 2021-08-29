@@ -12,5 +12,5 @@ for (i = 65; i <= 90; i++)
 putchar(i);
 /*newline*/
 putchar(10);
+return(0);
 }
-
