@@ -1,0 +1,1 @@
+low level language is close to hardware than other,it convert to machine code without a compiler or interpreter
