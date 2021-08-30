@@ -13,8 +13,7 @@ for (i = 0;; i++)
 l = i / 10;
 if (l == 0)
 {
-char c = i + '0';
-putchar (c);
+putchar (i + '0');
 }
 else
 break;
