@@ -7,7 +7,6 @@ int main(void)
 {
 int i;
 int l;
-int m = 0;
 
 for (i = 0;; i++)
 {
