@@ -1,7 +1,12 @@
 #include <stdio.h>
 /**
-* main function for print alpabet except e & q
-*/
+ * function_name - Short description, single line
+ * @main: Description of parameter x
+(* a blank line
+ * Description: Longer description of the function)?
+(* section header: Section description)*
+ * Return: Description of the returned value
+ */
 int main(void)
 {
 int i;
