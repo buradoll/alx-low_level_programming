@@ -9,8 +9,8 @@ int main (void)
 int i;
 char *alx = "Holberton";
 
-for (i = 0; i < 15; i++)
-putchar(alx[i]);
-putchar(10);
-return(0);
+for (i = 0; i < 9; i++)
+putchar (alx[i]);
+putchar (10);
+return (0);
 }
