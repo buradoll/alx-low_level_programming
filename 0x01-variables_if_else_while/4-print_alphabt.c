@@ -1,13 +1,5 @@
 #include <stdio.h>
 /**
- * function_name - Short description, single line
- * @main: Description of parameter x
-(* a blank line
- * Description: Longer description of the function)?
-(* section header: Section description)*
- * Return: Description of the returned value
- */
-/**
 * for loop depend on their ascii code to separate
 */
 int main(void)
