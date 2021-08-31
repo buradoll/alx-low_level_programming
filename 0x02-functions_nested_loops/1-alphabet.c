@@ -7,16 +7,13 @@
 void print_alphabet(void);
 int main(void)
 {
-char *c[300];
-
 void print_alphabet(void);
 {
-int i=0;
-
+int i = 0;
 for (i = 97; i < 123; i++)
-c= putchar (i);
-return(0);
-}
+putchar (i);
 putchar (10);
-return(0);
+return(1);
+}
+return(1);
 }
