@@ -10,7 +10,7 @@ int i;
 char *alx = "Holberton";
 
 for (i = 0; i < 9; i++)
-_putchar (alx[i]);
+putchar (alx[i]);
 putchar (10);
 return (0);
 }
