@@ -16,14 +16,9 @@ putchar (10);
 * Return: 1 if the number is positive. 0 otherwise
 */
 /**
-* Short description, single line
+* return- return positive 1 and negative 0
 (* section header: Section description)*
 *  Description of the returned value
 */
 return (0);
-/**
-* Short description, single line
-(* section header: Section description)*
-*  Description of the returned value
-*/
 }
