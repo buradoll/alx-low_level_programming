@@ -1,4 +1,4 @@
-# include "main.c"
+# include "main.h"
 # include <stdio>
 /**
 * main - Short description, single line
