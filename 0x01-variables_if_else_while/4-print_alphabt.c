@@ -12,35 +12,22 @@ int main(void)
 int i;
 
 /**
-* @i++ for hexadecimal
-*for loop depend on their ascii code to separate
-*/
-/**
-* for - Check if a number is greater than 0
-* @i: The number to be checked
-*
-* Return: 1 if the number is positive. 0 otherwise
+* @i: for hexadecimal
 */
 for (i = 97; i <= 122; i++)
 /**
-* for loop depend on their ascii code to separate
-*/
-/**
-* if - Check if a number is greater than 0
 * @i: The number to be checked
-*
-* Return: 1 if the number is positive. 0 otherwise
 */
 if (i != 101 && i != 113)
 /**
-*@putchar(10):is for newline
-* print using putchar
+* @10:is for newline
+* @:is for print all output
 *
 */
 putchar (i);
 putchar (10);
 /**
-* return value
+* Return: 1 if the number is positive. 0 otherwise
 */
 return (0);
 }
