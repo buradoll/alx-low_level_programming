@@ -4,10 +4,14 @@
 */
 int main(void)
 {
+/**
+* for loop depend on their ascii code to separate
+*/
 int i;
 
 /**
-* for loop depend on their ascii code to separate
+* @i++ for hexadecimal
+*for loop depend on their ascii code to separate
 */
 for (i = 97; i <= 122; i++)
 /**
@@ -15,12 +19,11 @@ for (i = 97; i <= 122; i++)
 */
 if (i != 101 && i != 113)
 /**
+*@putchar(10 for newline)
 * print using putchar
+*
 */
 putchar (i);
-/**
-* print using putchar
-*/
 putchar (10);
 /**
 * return value
