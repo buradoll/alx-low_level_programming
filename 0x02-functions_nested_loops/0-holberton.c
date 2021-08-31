@@ -1,3 +1,4 @@
+# include <main.c>
 # include <stdio>
 /**
 * main - Short description, single line
