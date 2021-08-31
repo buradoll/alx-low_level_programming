@@ -7,6 +7,9 @@
 (* section header: Section description)*
  * Return: Description of the returned value
  */
+/**
+* for loop depend on their ascii code to separate
+*/
 int main(void)
 {
 int i;
