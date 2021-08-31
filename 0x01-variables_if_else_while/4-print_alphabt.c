@@ -16,6 +16,5 @@ putchar (10);
 * return- return positive 1 and negative 0
 * Return: 1 if the number is positive. 0 otherwise
 */
-/**
 return (0);
 }
