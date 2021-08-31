@@ -5,7 +5,7 @@
 */
 int main(void)
 {
-int alphabet(void)
+char alphabet()
 {
 int i;
 
