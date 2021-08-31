@@ -1,6 +1,9 @@
 #include<stdio.h>
 #include <stdlib.h>
-/*lower and upper case*/
+/**
+* function_name - Short description, single line
+* Return: Description of the returned value
+*/
 int main(void)
 {
 int i;
