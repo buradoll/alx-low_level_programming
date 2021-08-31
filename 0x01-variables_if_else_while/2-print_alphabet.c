@@ -1,9 +1,10 @@
 
 #include<stdio.h>
 #include <stdlib.h>
-/*
-*main fun of printing alphabet with lower case
-*/
+/**
+ * function_name - Short description, single line
+ * Return: Description of the returned value
+ */
 int main(void)
 {
 int i;
