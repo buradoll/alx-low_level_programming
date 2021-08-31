@@ -4,7 +4,7 @@
 * main - Short description, single line
 * Return: Description of the returned value
 */
-int main (void)
+int main(void)
 {
 int i;
 char *alx = "Holberton";
