@@ -5,12 +5,9 @@
 */
 void print_alphabet_x10(void);
 int main(void)
-{  
-
-   print_alphabet_x10();
-   //int l=print_alphabet_x10(i);
-// printf("output of L is :%d",l);
-
+{
+print_alphabet_x10();
+result(0);
 }
 
 void print_alphabet_x10(void)
