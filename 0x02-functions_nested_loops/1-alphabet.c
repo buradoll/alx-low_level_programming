@@ -7,13 +7,14 @@
 void print_alphabet(void);
 int main(void)
 {
-void print_alphabet(void);
+print_alphabet();
+return(1);
+}
+void print_alphabet(void)
 {
 int i = 0;
 for (i = 97; i < 123; i++)
 putchar (i);
 putchar (10);
-return(1);
-}
 return(1);
 }
