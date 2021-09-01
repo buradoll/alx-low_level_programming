@@ -10,7 +10,7 @@ int main(void)
 print_alphabet();
 return(1);
 }
-void print_alphabet(void)
+print_alphabet()
 {
 int i = 0;
 for (i = 97; i < 123; i++)
