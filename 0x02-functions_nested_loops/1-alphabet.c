@@ -7,9 +7,9 @@
 void print_alphabet(void);
 int main(void)
 {
-print_alphabet();
+void print_alphabet(void);
 }
-print_alphabet()
+void print_alphabet()
 {
 int i = 0;
 for (i = 97; i < 123; i++)
