@@ -5,12 +5,18 @@
 */
 void print_alphabet_x10(void);
 int main(void)
-{    
-void print_alphabet_x10(void);
-{
-int i = 0;
-int j = 0;
+{  
 
+   print_alphabet_x10();
+   //int l=print_alphabet_x10(i);
+// printf("output of L is :%d",l);
+
+}
+
+void print_alphabet_x10(void)
+{
+int j=0;
+int i;
 while (j<10)
 {
 for (i = 97; i < 123; i++)
@@ -18,6 +24,4 @@ putchar (i);
 putchar (10);
 j++;
 }
-}
-return(1);
 }
