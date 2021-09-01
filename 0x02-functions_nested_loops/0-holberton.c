@@ -7,7 +7,7 @@
 int main(void)
 {
 int i;
-char *alx = "Holberton";
+char *alx = "_putchar";
 
 for (i = 0; i < 9; i++)
 putchar (alx[i]);
