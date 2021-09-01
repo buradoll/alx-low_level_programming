@@ -3,10 +3,9 @@
 * main - Short description, single line
 * Return: Description of the returned value
 */
-void print_alphabet_x10(void);
 int main(void)
 {
-print_alphabet_x10();
+void print_alphabet_x10(void);
 return(0);
 }
 void print_alphabet_x10(void)
