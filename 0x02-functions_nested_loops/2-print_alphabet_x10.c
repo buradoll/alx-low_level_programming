@@ -7,9 +7,8 @@ void print_alphabet_x10(void);
 int main(void)
 {
 print_alphabet_x10();
-result(0);
+return(0);
 }
-
 void print_alphabet_x10(void)
 {
 int j=0;
