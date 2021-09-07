@@ -1,4 +1,4 @@
 int _strlen(char *s)
 {
-return (lng);
+return (len);
 }
