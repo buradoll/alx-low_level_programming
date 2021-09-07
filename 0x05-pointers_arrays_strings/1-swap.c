@@ -1,6 +1,6 @@
 /**
  * swap_int - check the code
- *@t: save value of a
+ *@t save value of a
  *@a: main variable
  *@b: main variable
  *@g save value of b
