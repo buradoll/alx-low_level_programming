@@ -4,8 +4,8 @@
  * @c: string parameter
  * Return: no return
  */
-void print_rev(char *s);
-void print_rev(char *s)
+void print_rev(char *str);
+void print_rev(char *str)
 {
 int len = 0;
   
