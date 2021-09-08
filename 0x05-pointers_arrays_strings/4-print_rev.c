@@ -5,7 +5,7 @@
  * Return: no return
  */
 void print_rev(char *str);
-_putchar (char c);
+int _putchar (char c);
 void print_rev(char *str)
 {
 int len = 0;
@@ -22,5 +22,4 @@ for (; len <= 0; len--)
 _putchar (str[len]);
 }
 _putchar ('\n');
-}
 }
