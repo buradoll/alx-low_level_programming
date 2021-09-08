@@ -5,6 +5,7 @@
  * Return: no return
  */
 void print_rev(char *str);
+_putchar (char c);
 void print_rev(char *str)
 {
 int len = 0;
