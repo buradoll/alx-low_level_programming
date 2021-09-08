@@ -19,6 +19,4 @@ printf(", ");
 i++;
 }
 printf("\n");
-printf("i value: %d", i);
- 
 }
