@@ -4,9 +4,9 @@
  * @str: string parameter
  * Return: no return
  */
-void print_rev(char *str);
+void rev_string(char *s);
 int _putchar (char c);
-void print_rev(char *str)
+void rev_string(char *s)
 {
 int len = 0;
 
