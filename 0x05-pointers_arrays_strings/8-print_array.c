@@ -1,9 +1,11 @@
 #include <stdio.h>
 /**
- *_puts - check the code
+ *print_array - check the code
  *_putchar - check the code
+ *printf - check the code
  * @c: string parameter
- *_puts - check the code
+ * @a: string parameter
+ * @n: string parameter
  * Return: no return
  */
 int _putchar (char c);
