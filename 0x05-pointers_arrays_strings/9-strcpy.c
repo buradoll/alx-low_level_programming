@@ -1,7 +1,7 @@
 /**
- * main - check the code
+ * _strcpy - check the code
  *
- * Return: Always 0.
+ * Return: return dest
  */
 char *_strcpy(char *dest, char *src)
 {
