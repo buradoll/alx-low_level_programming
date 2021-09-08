@@ -1,7 +1,7 @@
 /**
  *print_rev - check the code
  *_putchar - check the code
- * @str: string parameter
+ * @s: string parameter
  * Return: no return
  */
 void rev_string(char *s);
@@ -18,7 +18,7 @@ while (len >= 0)
 /**
  *_putchar - check the code
  * Return: no return
- * @str: string parameter
+ * @s: string parameter
  */
 _putchar (s[len]);
 len--;
