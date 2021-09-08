@@ -13,5 +13,5 @@ l = 0;
 while(*(src + 1) != '\0')
 l++;
 while(i <= l)
-*dest[i] = src[i];
+dest[i] = src[i];
 }
