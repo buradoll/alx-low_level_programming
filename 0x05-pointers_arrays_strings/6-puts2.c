@@ -14,8 +14,8 @@ int i;
 while (*(str + len) != '\0')
 len++;
 len--;
-i=0;
-while (i > len)
+i = 0;
+while (i < len)
 {
 /**
  *_putchar - check the code
