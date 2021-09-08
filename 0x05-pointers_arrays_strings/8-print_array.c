@@ -14,13 +14,12 @@ int x;
 
 x = 0;
 while(*(a+x) !='\0')
-  x++;
-n=  x/ 4;
-while(i <= n)
+x++;
+while (i <= n)
 {
-printf("%d",a[i]);
-printf(", ");
+printf ("%d",a[i]);
+printf (", ");
 i++;
 }
-printf("\n");
+printf ("\n");
 }
