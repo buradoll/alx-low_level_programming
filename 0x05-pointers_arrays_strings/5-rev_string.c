@@ -9,11 +9,10 @@ int _putchar (char c);
 void print_rev(char *str)
 {
 int len = 0;
-int i;
 
-while (*(str + len) !='\0')
+while (*(str + len) != '\0')
 len++;
-i= 0;
+len--;
 while (len >= 0)
 {
 /**
@@ -21,9 +20,8 @@ while (len >= 0)
  * Return: no return
  * @str: string parameter
  */
-*s = s[len];
+_putchar (str[len]);
 len--;
-i++;
 }
 _putchar ('\n');
 }
