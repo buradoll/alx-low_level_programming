@@ -12,7 +12,7 @@ int len = 0;
   
 while (*(str + len))
 len++;
-for (; len <= 0; len--)
+while (len >= 0)
 {
 /**
  *_putchar - check the code
@@ -20,6 +20,7 @@ for (; len <= 0; len--)
  * Return: no return
  */
 _putchar (str[len]);
+len--;
 }
 _putchar ('\n');
 }
