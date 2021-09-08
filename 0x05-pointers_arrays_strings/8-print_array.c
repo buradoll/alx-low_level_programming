@@ -14,6 +14,7 @@ int i = 0;
 while (i < n)
 {
 printf ("%d",a[i]);
+while ((i + 1) < n)
 printf (", ");
 i++;
 }
