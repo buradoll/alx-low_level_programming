@@ -11,7 +11,7 @@ int i;
 int len = 0;
 while (*(str + len))
 len++;
-for (i = 0;i <= len; i++)
+for (i = 0;i < len; i++)
 {
 _putchar (str[i]);
 }
