@@ -4,9 +4,9 @@
  * @c: string parameter
  * Return: no return
  */
+void print_rev(char *s);
 void print_rev(char *s)
 {
-int i;
 int len = 0;
   
 while (*(str + len))
@@ -22,7 +22,4 @@ _putchar (str[len]);
 }
 _putchar ('\n');
 }
-
-
-
 }
