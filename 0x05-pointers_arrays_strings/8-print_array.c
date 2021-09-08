@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  *_puts - check the code
  *_putchar - check the code
