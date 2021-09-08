@@ -1,5 +1,5 @@
 /**
- *print_rev - check the code
+ *rev_string - check the code
  *_putchar - check the code
  * @s: string parameter
  * Return: no return
