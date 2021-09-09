@@ -13,7 +13,7 @@ int m;
 
 while (*(dest + l))
 l++;
-while (*(src + i))
+while (*(src + i) != '\n' )
 i++;
 i--;
 m = 0;
