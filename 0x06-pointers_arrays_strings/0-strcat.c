@@ -23,5 +23,6 @@ while (m <= i)
 dest[l + m] = src[m];
 m++;
 }
-return (dest);
+dest[l + m] = '\0';
+return dest;
 }
