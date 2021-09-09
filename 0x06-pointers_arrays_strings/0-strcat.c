@@ -13,7 +13,6 @@ int g;
 int m = 0;
 while (*(dest + l) != '\0')
 l++;
-l--;
 while (*(src + i) != '\0')
 i++;
 i--;
