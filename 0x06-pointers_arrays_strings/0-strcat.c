@@ -10,13 +10,15 @@ int l = 0;
 int i = 0;
 int li;
 int g;
-int m = 0;
+int m;
+
 while (*(dest + l) != '\0')
 l++;
 while (*(src + i) != '\0')
 i++;
 i--;
 li = i + l;
+m = 0;
 while (m <= i)
 {
 dest[l + m] = src[m];
