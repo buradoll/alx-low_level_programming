@@ -14,7 +14,7 @@ int m;
 
 while (*(dest + l) != '\0')
 l++;
-while (*(src + i) != '\0')
+while (*(src + i))
 i++;
 i--;
 li = i + l;
