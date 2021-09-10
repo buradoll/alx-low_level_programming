@@ -11,7 +11,7 @@ int l = 0;
 int i = 0;
 int m;
 
-while (*(dest + l))
+while (*(dest + l) != '\n')
 l++;
 while (*(src + i) != '\n')
 i++;
