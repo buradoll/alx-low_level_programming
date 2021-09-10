@@ -17,7 +17,7 @@ i++;
 i = 0;
 while (i < n)
 {
-a[n - i] = arr[i];
+a[n - 1 - i] = arr[i];
 i++;
 }
 }
