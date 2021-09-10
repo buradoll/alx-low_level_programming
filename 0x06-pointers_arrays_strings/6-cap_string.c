@@ -1,9 +1,9 @@
 /**
- * string_toupper - check the code
+ * cap_string - check the code
  *@f: parameter of fun
  * Return: Always 0.
  */
-char *string_toupper(char *f)
+char *cap_string(char *f)
 {
 int i;
 int n = sizeof(f);
