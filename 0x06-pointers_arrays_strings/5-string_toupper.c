@@ -3,7 +3,7 @@
  *@f: parameter of fun
  * Return: Always 0.
  */
-char *string_toupper(char *f)
+char *string_toupper(char *)
 {
 int i;
 int n = sizeof(f);
