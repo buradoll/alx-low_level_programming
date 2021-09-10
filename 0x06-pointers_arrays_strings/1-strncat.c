@@ -11,9 +11,9 @@ int l = 0;
 int i = 0;
 int m;
 
-while (*(dest + l) != '\n')
+while (*(dest + l))
 l++;
-while (*(src + i) != '\n')
+while (*(src + i))
 i++;
 i--;
 m = 0;
