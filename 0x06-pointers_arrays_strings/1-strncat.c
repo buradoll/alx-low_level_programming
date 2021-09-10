@@ -17,7 +17,7 @@ while (*(src + i))
 i++;
 i--;
 m = 0;
-while (m < n)
+while (m <= n)
 {
 dest[l + m] = src[m];
 m++;
