@@ -1,5 +1,5 @@
 /**
- * _strcat - writes the character c to stdout
+ * _strncat - writes the character c to stdout
  * @dest: The character to print
  * @n: The character to print
  * @src: The character to print
@@ -13,7 +13,7 @@ int m;
 
 while (*(dest + l))
 l++;
-while (*(src + i) != '\n' )
+while (*(src + i) != '\n')
 i++;
 i--;
 m = 0;
@@ -28,5 +28,5 @@ while (m <= i)
 dest[l + m] = src[m];
 m++;
 }
-return dest;
+return (dest);
 }
