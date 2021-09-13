@@ -23,6 +23,7 @@ for (j = 0; j < h; j++)
 if (accept[i] == s[j])
 {
 return (accent[i]);
+break;
 }
 else
 {
@@ -30,5 +31,4 @@ return (NULL);
 }
 }
 }
-return (m);
 }
