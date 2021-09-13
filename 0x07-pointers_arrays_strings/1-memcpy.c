@@ -11,7 +11,6 @@ char b;
 
 while (i < n)
 {
-
 if (sizeof(dest) == sizeof(src))
 {
 b = src[i];
