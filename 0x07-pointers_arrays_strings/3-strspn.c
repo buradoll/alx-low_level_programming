@@ -17,9 +17,9 @@ while (*(s + h))
 h++;
 while (*(accept + k))
 k++;
-for (i = 0; i < k; i++)
+for (i = 0; i < k && accept[i] != '\0'; i++)
 {
-for (j = 0; j <= h; j++)
+for (j = 0; j < h && s[j] != '\0'; j++)
 {
 if (accept[i] == s[j])
 {
