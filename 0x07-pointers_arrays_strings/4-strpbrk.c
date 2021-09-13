@@ -26,7 +26,7 @@ return (accent[i]);
 }
 else
 {
-return (null);
+return (NULL);
 }
 }
 }
