@@ -1,9 +1,9 @@
 /**
- * _memset - prints buffer in hexa
+ *_memset - prints buffer in hexa
  * @b: filled var
  * @s: address for fill
  * @n: bytes of filled
- * Return: *s.
+ * Return: s.
  */
 char *_memset(char *s, char b, unsigned int n)
 {
@@ -13,5 +13,5 @@ while (bu < n)
 *(s + bu) = b;
 bu++;
 }
-return (*s);
+return (s);
 }
