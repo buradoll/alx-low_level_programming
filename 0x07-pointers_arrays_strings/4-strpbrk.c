@@ -1,3 +1,4 @@
+#include <stddef.h>
 /**
  * _strpbrk - prints buffer in hexa
  * @s: sorce char
