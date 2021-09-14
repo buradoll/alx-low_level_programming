@@ -1,6 +1,6 @@
 /**
  * _strchr - check the code
- * @s: parameter 
+ * @s: parameter
  * @c: parameter
  *
  * Return: pointer of the occurence char.
@@ -12,7 +12,7 @@ int h = 0;
 
 while (*(s + h))
 h++;
-while(i <= h)
+while (i <= h)
 {
 if (s[i] == c)
 {
