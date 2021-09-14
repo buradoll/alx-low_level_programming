@@ -7,7 +7,7 @@
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-int i = 0;
+unsigned int ii = 0;
 char b;
 int l;
 int k;
@@ -16,13 +16,13 @@ while (*(dest + l))
 l++;
 while (*(src + k))
 k++;
-while (i < n)
+while (ii < n)
 {
 if (k == l)
 {
-b = src[i];
-dest[i] = b;
+b = src[ii];
+dest[ii] = b;
 }
-i++;
+ii++;
 }
 }
