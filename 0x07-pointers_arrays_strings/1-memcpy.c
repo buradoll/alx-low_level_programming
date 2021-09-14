@@ -25,4 +25,5 @@ dest[ii] = b;
 }
 ii++;
 }
+return (0);
 }
