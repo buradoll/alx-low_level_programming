@@ -15,5 +15,5 @@ while (bu < n)
 *(s + bu) = b;
 bu++;
 }
-return(s);
+return (s);
 }
