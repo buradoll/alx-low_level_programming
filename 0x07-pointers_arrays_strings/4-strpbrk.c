@@ -22,13 +22,14 @@ for (j = 0; j < h; j++)
 {
 if (accept[i] == s[j])
 {
-return (accent[i]);
+ret = s[i];
 break;
 }
 else
 {
-return (NULL);
+ret = NULL;
 }
 }
 }
+return (ret);
 }
