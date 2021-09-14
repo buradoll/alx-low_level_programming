@@ -12,6 +12,7 @@ int i;
 int j;
 int h = 0;
 int k = 0;
+char ret;
 
 while (*(s + h))
 h++;
