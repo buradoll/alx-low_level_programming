@@ -1,8 +1,8 @@
 /**
  * _puts_recursion - check the code
- * _putchar - function for print the string
+ * @c: string for print
  * @s: string pointer for print
- * Return: Always 0.
+ * Return: void.
  */
 int _putchar(char c);
 void _puts_recursion(char *s)
