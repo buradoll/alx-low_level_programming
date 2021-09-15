@@ -4,6 +4,7 @@
  * @s: string pointer for print
  * Return: Always 0.
  */
+int _putchar(char c);
 void _puts_recursion(char *s)
 {
 int i = 0;
