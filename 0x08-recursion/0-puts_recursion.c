@@ -7,7 +7,7 @@
 void _puts_recursion(char *s)
 {
 int i = 0;
-int b = *s;
+char b[3] = *s;
 
 if (*s != '\0')
 {
