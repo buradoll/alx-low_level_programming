@@ -7,7 +7,7 @@ int _putchar(char c);
 void _print_rev_recursion(char *s)
 {
 int i = 0;
-char *b;
+
 if (i == 0)
 while(*(s + i))
 i++;
