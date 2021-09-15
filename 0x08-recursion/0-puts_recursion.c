@@ -1,7 +1,6 @@
 /**
  * _puts_recursion - check the code
  * @c: string for print
- * @s: string pointer for print
  * Return: void.
  */
 int _putchar(char c);
