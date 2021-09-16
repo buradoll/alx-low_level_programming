@@ -12,10 +12,6 @@ if (*s == '\0')
 {
 return (i);
 }
-else
-{
 i++;
 _strlen_recursion(++s);
-}
-return (i);
 }
