@@ -6,12 +6,15 @@
 int _putchar(char c);
 int _strlen_recursion(char *s)
 {
-int i = 0;
+static int i = 0;
 
-if (s[i] == '\0')
+if (*s == '\0')
+{
+return (i);
+}
+else
 {
 i++;
-_strlen_recursion(s + 1);
+_strlen_recursion(++s);
 }
-return (i);
 }
