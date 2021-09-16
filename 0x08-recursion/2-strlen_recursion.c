@@ -14,4 +14,5 @@ return (i);
 }
 _strlen_recursion(s + 1);
 i++;
+return (i);
 }
