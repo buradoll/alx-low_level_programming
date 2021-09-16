@@ -1,5 +1,5 @@
 /**
- * int factorial - check the code
+ * factorial - check the code
  * @c: string for print
  * Return: void.
  */
