@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * main - prints buffer in hexa
  * @argv: pointer array of argument
@@ -7,6 +8,7 @@
  */
 int main(int argc, char *argv[])
 {
+UNUSED(argc);
 printf("%s\n", argv[0]);
 return (0);
 }
