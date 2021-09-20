@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * main - prints buffer in hexa
  * @argv: pointer array of argument
