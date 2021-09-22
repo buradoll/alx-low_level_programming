@@ -12,7 +12,10 @@ a = malloc(size * sizeof(char));
 if (a == NULL)
 return NULL;
 while (i < size)
+{
 a[i] = c;
+i++;
+}
 free(a);
 return (a);
 }
