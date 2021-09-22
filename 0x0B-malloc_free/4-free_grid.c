@@ -1,4 +1,6 @@
 #include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * free_grid - prints buffer in hexa
  * @grid: 2d array
