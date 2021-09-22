@@ -7,7 +7,7 @@
  */
 #include <stdlib.h>
 #include <stddef.h>
-char *_strdup(char *str);
+char *_strdup(char *str)
 {
 char *a;
 
