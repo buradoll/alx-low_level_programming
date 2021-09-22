@@ -7,10 +7,10 @@ char *a;
 
 i = 0;
 if (size == 0)
-return (NULL);
+return NULL;
 a = malloc(size * sizeof(char));
 if (a == NULL);
-return (NULL);
+return NULL;
 while (i < size)
 a[i] = c;
 free(a);
