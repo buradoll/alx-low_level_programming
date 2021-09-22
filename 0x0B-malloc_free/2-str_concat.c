@@ -34,7 +34,5 @@ a[x] = s2[y];
 x++;
 y++;
 }
-if (a == NULL)
-return (NULL);
 return (a);
 }
