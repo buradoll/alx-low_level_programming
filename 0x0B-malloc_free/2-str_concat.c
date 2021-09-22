@@ -25,9 +25,7 @@ s = i + j;
 a = malloc(sizeof(char) * s);
 if (s1 == NULL || s2 == NULL)
 return (NULL);
-if (a == NULL)
-return (NULL);
-while (x < sizeof(s1))
+while (x <= i)
 {
 a[x] = s1[x];
 x++;
@@ -37,5 +35,7 @@ while (y <= sizeof(s2))
 a[x] = s2[y];
 x++;
 }
+if (a == NULL)
+return (NULL);
 return (a);
 }
