@@ -24,7 +24,6 @@ j++;
 s = i + j;
 printf("%d\n", s);
 a = malloc(sizeof(char) * s);
-return (NULL);
 while (x <= i)
 {
 *(a + x) = *(s1 + x);
