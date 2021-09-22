@@ -14,7 +14,6 @@ int j = 0;
 int i = 0;
 int y = 0;
 int x = 0;
-char *f;
 int s = 0;
 
 while (*(s1 + j))
