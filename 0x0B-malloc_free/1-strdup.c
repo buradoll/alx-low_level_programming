@@ -9,7 +9,7 @@
 #include <stddef.h>
 char *_strdup(char *str)
 {
-char *a[sizeof(str)];
+char *a;
 
 if (str == NULL)
 return (NULL);
