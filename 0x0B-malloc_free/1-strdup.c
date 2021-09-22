@@ -15,9 +15,9 @@ unsigned int i = 0;
 while (*(str + j))
 j++;
 j++;
-if (str == NULL)
-return (NULL);
 a = malloc(sizeof(char) * j);
+if (a == NULL)
+return (NULL);
 while (i <= j)
 {
 a[i] = str[i];
