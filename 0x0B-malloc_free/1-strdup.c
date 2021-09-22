@@ -13,7 +13,7 @@ char *a;
 unsigned int j = 0;
 unsigned int i = 0;
 
-while (*(s + j))
+while (*(str + j))
 j++;
 if (str == NULL)
 return (NULL);
