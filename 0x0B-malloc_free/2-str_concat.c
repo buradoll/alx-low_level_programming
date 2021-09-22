@@ -14,7 +14,7 @@ int j = 0;
 int i = 0;
 int y = 0;
 int x = 0;
-int *f;
+char *f;
 int s;
 
 while (*(s1 + j))
@@ -24,7 +24,6 @@ while (*(s2 + j))
 j++;
 s = i + j;
 *f = s;
-printf("%d\n", s);
 a = malloc(sizeof(char) * s);
 while (x <= i)
 {
