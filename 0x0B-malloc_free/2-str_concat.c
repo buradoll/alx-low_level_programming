@@ -22,6 +22,7 @@ i--;
 while (*(s2 + j))
 j++;
 s = i + j;
+prinf("%d\n", s);
 a = malloc(sizeof(char) * s);
 return (NULL);
 while (x <= i)
