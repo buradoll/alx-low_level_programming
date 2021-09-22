@@ -15,7 +15,7 @@ unsigned int i = 0;
 while (*(str + j))
 j++;
 j++;
-if (str[0] == 'N')
+if (str[0] == "N")
 return (NULL);
 a = malloc(sizeof(char) * j);
 while (i <= j)
