@@ -23,7 +23,5 @@ while (i <= j)
 a[i] = str[i];
 i++;
 }
-if (a == NULL)
-return (NULL);
 return (a);
 }
