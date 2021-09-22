@@ -27,12 +27,12 @@ if (!s1 && !s2)
 return (NULL);
 while (x <= i)
 {
-*(a + x) = *(s1 + x);
+a[x] = s1[x];
 x++;
 }
 while (y <= j)
 {
-*(a + x) = *(s2 + y);
+a[x] = s2[y];
 x++;
 y++;
 }
