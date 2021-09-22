@@ -1,3 +1,4 @@
+
 #include <stdlib.h>
 #include <stddef.h>
 char *create_array(unsigned int size, char c)
@@ -16,6 +17,5 @@ while (i < size)
 a[i] = c;
 i++;
 }
-free(a);
 return (a);
 }
