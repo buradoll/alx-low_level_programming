@@ -14,7 +14,7 @@ char *a;
 if (str == NULL)
 return (NULL);
 a = malloc(sizeof(str));
-a = str;
+*a = str;
 if (*a == NULL)
 return (NULL);
 return (a);
