@@ -15,7 +15,7 @@ int i = 0;
 int y = 0;
 int x = 0;
 char *f;
-int s;
+int s = 0;
 
 while (*(s1 + j))
 i++;
@@ -23,8 +23,9 @@ i--;
 while (*(s2 + j))
 j++;
 s = i + j;
-*(f + 0) = s;
 a = malloc(sizeof(char) * s);
+if (!s1 && !s2)
+return (NULL);
 while (x <= i)
 {
 *(a + x) = *(s1 + x);
