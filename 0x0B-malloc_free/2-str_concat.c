@@ -21,7 +21,6 @@ i++;
 i--;
 while (*(s2 + j))
 j++;
-
 s = i + j;
 a = malloc(sizeof(char) * s);
 while (x <= i)
@@ -29,7 +28,7 @@ while (x <= i)
 a[x] = s1[x];
 x++;
 }
-while (y <= sizeof(s2))
+while (y <= j)
 {
 a[x] = s2[y];
 x++;
