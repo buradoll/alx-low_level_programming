@@ -29,12 +29,12 @@ if (a == NULL)
 return (NULL);
 while (x < sizeof(s1))
 {
-a[x] = str[x];
+a[x] = s1[x];
 x++;
 }
 while (y <= sizeof(s2))
 {
-a[x] = str[y];
+a[x] = s2[y];
 x++;
 }
 return (a);
