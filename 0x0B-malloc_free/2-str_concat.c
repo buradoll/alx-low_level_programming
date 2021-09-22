@@ -23,7 +23,7 @@ i--;
 while (*(s2 + j))
 j++;
 s = i + j;
-f = s;
+*(f + 0) = s;
 a = malloc(sizeof(char) * s);
 while (x <= i)
 {
