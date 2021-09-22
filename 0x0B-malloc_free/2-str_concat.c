@@ -10,11 +10,11 @@
 char *str_concat(char *s1, char *s2)
 {
 char *a;
-unsigned int j = 0;
-unsigned int i = 0;
-unsigned int y = 0;
-unsigned int x = 0;
-unsigned int s;
+int j = 0;
+int i = 0;
+int y = 0;
+int x = 0;
+int s;
 
 while (*(s1 + j))
 i++;
@@ -23,7 +23,6 @@ while (*(s2 + j))
 j++;
 s = i + j;
 a = malloc(sizeof(char) * s);
-if (s1 == NULL || s2 == NULL)
 return (NULL);
 while (x <= i)
 {
