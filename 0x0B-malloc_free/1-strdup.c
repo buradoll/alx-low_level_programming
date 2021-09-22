@@ -1,7 +1,6 @@
 /**
- * create_array - prints buffer in hexa
- * @size: the address of memory to print
- * @c: the size of the memory to print
+ * _strdup - prints buffer in hexa
+ * @str: the address of memory to duplicate
  *
  * Return: pointer of a.
  */
@@ -15,7 +14,8 @@ unsigned int i = 0;
 
 while (*(str + j))
 j++;
-if (*str == NULL)
+
+if (str == NULL)
 return (NULL);
 a = malloc(sizeof(char) * j);
 while (i <= j)
