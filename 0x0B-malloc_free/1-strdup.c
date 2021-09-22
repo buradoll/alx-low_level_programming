@@ -12,12 +12,12 @@ char *a;
 unsigned int j = 0;
 unsigned int i = 0;
 
-if (*str == '\0')
-return (NULL);
 while (*(str + j))
 j++;
 j++;
 a = malloc(sizeof(char) * j);
+if (str == NULL)
+return (NULL);
 if (a == NULL)
 return (NULL);
 while (i <= j)
