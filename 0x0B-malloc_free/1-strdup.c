@@ -17,7 +17,7 @@ return (NULL);
 a = malloc(sizeof(str));
 while (i < sizeof(str))
 {
-*a[i] = str[i];
+a[i] = str[i];
 i++;
 }
 if (a == NULL)
