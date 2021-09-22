@@ -37,5 +37,5 @@ y++;
 }
 if (a == NULL)
 return (NULL);
-return (a);
+return (s);
 }
