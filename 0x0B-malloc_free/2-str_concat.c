@@ -34,7 +34,7 @@ while (y <= sizeof(s2))
 {
 a[x] = s2[y];
 x++;
-y==;
+y++;
 }
 if (a == NULL)
 return (NULL);
