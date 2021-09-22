@@ -14,27 +14,28 @@ int j = 0;
 int i = 0;
 int y = 0;
 int x = 0;
-int s = 0;
+int s;
 
-while (*(s1 + j))
+while (*(s1 + i))
 i++;
 i--;
 while (*(s2 + j))
 j++;
+
 s = i + j;
 a = malloc(sizeof(char) * s);
-if (!s1 && !s2)
-return (NULL);
 while (x <= i)
 {
 a[x] = s1[x];
 x++;
 }
-while (y <= j)
+while (y <= sizeof(s2))
 {
 a[x] = s2[y];
 x++;
 y++;
 }
+if (a == NULL)
+return (NULL);
 return (a);
 }
