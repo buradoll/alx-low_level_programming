@@ -17,7 +17,10 @@ j++;
 j++;
 a = malloc(sizeof(char) * j);
 if (str == 0)
+{
+printf("in if\n");
 return (NULL);
+}
 if (a == NULL)
 return (NULL);
 while (i <= j)
