@@ -4,6 +4,7 @@
  *
  * Return: pointer of a.
  */
+#include <stdio.h>
 #include <stdlib.h>
 #include <stddef.h>
 char *_strdup(char *str)
