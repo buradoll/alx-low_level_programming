@@ -12,7 +12,7 @@ char *a;
 unsigned int j = 0;
 unsigned int i = 0;
 
-if (str == '\0')
+if (*str == '\0')
 return (NULL);
 while (*(str + j))
 j++;
