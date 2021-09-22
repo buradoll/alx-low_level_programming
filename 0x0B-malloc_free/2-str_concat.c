@@ -37,7 +37,5 @@ while (y <= j)
 x++;
 y++;
 }
-if (a == NULL)
-return (NULL);
-return (f);
+return (a);
 }
