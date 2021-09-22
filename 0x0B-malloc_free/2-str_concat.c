@@ -12,7 +12,7 @@ char *str_concat(char *s1, char *s2)
 char *a;
 int j = 0;
 int i = 0;
-int y = 0;
+unsigned int y = 0;
 int x = 0;
 int s;
 
@@ -29,7 +29,7 @@ while (x <= i)
 a[x] = s1[x];
 x++;
 }
-while (y <= sizeof(s2))
+while (y <= j)
 {
 a[x] = s2[y];
 x++;
