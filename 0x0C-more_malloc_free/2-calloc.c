@@ -1,9 +1,8 @@
 /**
- * simple_print_buffer - prints buffer in hexa
- * @buffer: the address of memory to print
- * @size: the size of the memory to print
- *
- * Return: Nothing.
+ * _calloc - prints buffer in hexa
+ * @nmemb: number of element
+ * @size: size of each memory
+ * Return: pointer.
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
