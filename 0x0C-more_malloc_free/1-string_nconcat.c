@@ -2,7 +2,7 @@
 /**
  * string_nconcat - check the code
  * @s1: char parameter
- * @s1: char parameter
+ * @s2: char parameter
  * @n: length of concat
  * Return: malloc pointer.
  */
@@ -23,13 +23,13 @@ n = j;
 d = malloc(sizeof(char)*(i + n));
 if (d == NULL)
 return (NULL);
-if (s1 != NULL)
+if (s1 != NULL && d != NULL)
 while (x < i)
 {
 d[x] = s1[x];
 x++;
 }
-if (s2 != NULL)
+if (s2 != NULL && d != NULL)
 while (y <= n)
 {
 d[x] = s2[y];
