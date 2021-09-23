@@ -1,3 +1,4 @@
+#include <stdlib.h>
 /**
  * string_nconcat - check the code
  * @s1: char parameter
