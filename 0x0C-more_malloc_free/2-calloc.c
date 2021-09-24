@@ -1,4 +1,3 @@
-#include <stddef.h>
 #include <stdlib.h>
 /**
  * _calloc - prints buffer in hexa
