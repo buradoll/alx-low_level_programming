@@ -32,7 +32,7 @@ x++;
 }
 if (*s2 != '\0')
 if (s2 != NULL && d != NULL)
-while (y < n)
+while (y <= n)
 {
 d[x] = s2[y];
 x++;
