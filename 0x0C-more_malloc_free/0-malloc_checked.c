@@ -10,6 +10,6 @@ int *d;
 
 d = malloc(b);
 if (d == NULL)
-return (NULL);
+exit (98);
 return (d);
 }
