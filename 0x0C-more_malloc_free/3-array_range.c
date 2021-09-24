@@ -1,3 +1,4 @@
+#include <stdlib.h>
 /**
  *array_range - check the code
  *@min: minnimum value
@@ -7,13 +8,14 @@
 int *array_range(int min, int max)
 {
 int *arr;
-int i;
-int j;
+unsigned int i;
+unsigned int j;
 
-arr = (int *) malloc(sizeof(int)*(max - min + 1));
+arr = malloc(sizeof(int)*(max - min + 1));
 if (min > max)
 return (NULL);
-j = max - min + 1;
+j = max - min;
+j++;
 if (arr == NULL)
 return (NULL);
 for(i = 0; i <= j; i++)
