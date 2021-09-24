@@ -13,7 +13,7 @@ unsigned int j;
 
 arr = malloc(sizeof(int) * (max - min + 1));
 if (min > max)
-exit (NULL);
+return (NULL);
 j = max - min;
 j++;
 if (arr == NULL)
