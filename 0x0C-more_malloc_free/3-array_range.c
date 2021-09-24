@@ -11,7 +11,7 @@ int *arr;
 unsigned int i;
 unsigned int j;
 
-arr = malloc(sizeof(int)*(max - min + 1));
+arr = malloc(sizeof(int) * (max - min + 1));
 if (min > max)
 return (NULL);
 j = max - min;
