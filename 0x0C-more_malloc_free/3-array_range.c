@@ -2,7 +2,7 @@
  *array_range - check the code
  *@min: minnimum value
  *@max: maxmum value
- * Return: Always 0.
+ * Return: return pointer.
  */
 int *array_range(int min, int max)
 {
