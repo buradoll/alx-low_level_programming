@@ -20,7 +20,7 @@ while (*(s2 + j))
 j++;
 if (n >= j)
 n = j;
-d = malloc(sizeof(char)*(i + n));
+d = malloc(sizeof(char) * (i + n));
 if (d == NULL)
 return (NULL);
 if (*s1 != '\0')
