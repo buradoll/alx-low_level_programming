@@ -18,7 +18,7 @@ j = max - min;
 j++;
 if (arr == NULL)
 return (NULL);
-for(i = 0; i <= j; i++)
+for (i = 0; i <= j; i++)
 {
 arr[i] = min;
 min++;
