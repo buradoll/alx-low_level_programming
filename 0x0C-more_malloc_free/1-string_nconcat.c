@@ -23,14 +23,14 @@ n = j;
 d = malloc(sizeof(char) * (i + n));
 if (d == NULL)
 return (NULL);
-if (s1 != '\0')
+if (*s1 != '\0')
 if (s1 != NULL && d != NULL)
 while (x < i)
 {
 d[x] = s1[x];
 x++;
 }
-if (s2 != '\0')
+if (*s2 != '\0')
 if (s2 != NULL && d != NULL)
 while (y <= n)
 {
