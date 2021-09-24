@@ -13,7 +13,7 @@ unsigned int i = 0;
 
 if (nmemb == 0 || size == 0)
 return (NULL);
-while (i <= nmemb)
+while (i < nmemb)
 {
 d = malloc(size);
 i++;
