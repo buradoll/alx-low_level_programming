@@ -1,8 +1,8 @@
 /**
  * dog - new struct 
  *@name
- * @age
- * @owner
+ *@age
+ *@owner
  */
 struct dog {
 char *name;
